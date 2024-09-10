@@ -154,7 +154,7 @@ If the setup module can successfully import the `torch` package, it will automat
 TORCH_VERSION=2.0.0 pip install .
 ```
 
-Same applies the `CUDA_VERSION` or `ROCM_VERSION` environment variables to build the kernels for a specific (installed) version of CUDA or ROCm.
+Same applies to the `CUDA_VERSION` or `ROCM_VERSION` environment variables to build the kernels for a specific (installed) version of CUDA or ROCm.
 
 There is additionally the `CC` and `CXX` environment variables to specify the name of the `g++` compiler (as found in `$PATH`) to use when building the kernels.
 
