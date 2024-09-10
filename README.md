@@ -80,7 +80,7 @@ source kernel-build-env/bin/activate
 # Install dependencies
 pip install numpy wheel
 
-# Torch with CUDA 12.1.1
+# Torch with CUDA 12.4
 pip install torch --index-url https://download.pytorch.org/whl/cu124
 ```
 
