@@ -143,14 +143,6 @@ You might need to add the `--no-build-isolation` flag if you get an error compla
 pip install --no-build-isolation 'git+https://github.com/casper-hansen/AutoAWQ_kernels.git'
 ```
 
-#### Advanced building options
-
-You might need to add the `--no-build-isolation` flag if you get an error complaining about the missing packages you have installed.
-
-```shell
-pip install --no-build-isolation .
-```
-
 ##### Environment variables
 
 If the setup module can successfully import the `torch` package, it will automatically use it as requirement to build the kernels, unless specified otherwise by setting the `TORCH_VERSION` environment variable.
